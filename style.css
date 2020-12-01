@@ -1,0 +1,252 @@
+*{
+    margin: 0 ;
+    padding: 0;
+   overflow-x: hidden;
+   
+    
+}
+#bgimg{
+    background: url('bg.jpg') no-repeat center center/cover;
+    height: 30%;
+    width: 100%;
+    overflow-x: hidden;
+    opacity: 0.9;
+    
+}
+/*Navbar */
+#navbar{
+    display: flex;
+    align-items: center;
+    /*background-color: rgb(122, 122, 122);*/
+    z-index: -1;
+    
+    height: 20%;
+   
+}
+
+/*Navbar logo */
+#logo{
+    margin: 10px 34px;
+    
+}  
+
+/*Navbar logo image*/
+#logoimg{
+    height: 75px;
+    margin: 3px 10px;
+    border-radius: 50%;
+    
+}
+
+/*Navbar list*/
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+#navbar ul li a{
+    color: white;
+    padding: 2px 20px;
+    display: block;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+
+}
+
+/*home section*/
+#home{
+    /*display: flex;*/
+    
+    margin: 3px 250px;
+    justify-content: left;
+    align-items: center;
+    
+}
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+#services{
+   
+    margin-top: 9px;
+    padding-top: 15px;
+    height: 375px;
+    width: 100%;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    
+}
+.service-img{
+    
+    height: 70%;
+    width:30%;
+    margin: 5px;
+    border:2px black solid;
+    border-radius: 10px;
+    background-color: rgba(194, 185, 185, 0.2);
+   
+    
+}
+#display-img{
+    display: flex;
+    justify-content: center;
+
+}
+.order-img{
+    height: 80%;
+    width:80%;
+    align-items: center;
+    padding: 8px 35px;
+}
+
+#about-us{
+    
+    
+    height: 300px;
+    width: 100%;
+    font-family: sans-serif;
+    transform: translateY(-50px);
+    /*position: relative;
+    bottom: 20px;*/
+
+    
+}
+#about-display{
+    padding: 5px;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    border: 2px solid black;
+    background: linear-gradient(to right, #FF416C,#FF4B2B);
+
+}
+#menu{
+    transform: translateY(-150px);
+    height:185px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 1rem;
+    
+}
+#menu-img{
+    background: linear-gradient(to right, #fc4a1a,#f7b733);
+    height: 50%;
+    padding:8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+} 
+.menu-details{
+    margin: 7px;
+    
+}
+
+#menu-pic{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    transform: translateY(-130px);
+   
+}
+.dishes{
+    height:120px;
+    width: 17%;
+    padding: 5px;
+    margin: 2px;
+    border: 2px black solid;
+    border-radius: 10px;
+    
+}
+#contact-us{
+    margin: 1px;
+    height: 150px;
+    width: 100%;
+    font-family: sans-serif;
+  /* position: absolute;
+    bottom: 2px; */
+    transform: translateY(20px);
+    
+   
+}
+#contact-details{
+    
+   height: 110px;
+   overflow-y: hidden;
+   background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;   
+}
+
+.order-us{
+    padding: 25px 15px;
+    height: 70%;
+    font-family: sans-serif;
+   
+}
+#foot{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-color:black;   
+    color: white;
+    
+}
+#content{
+    
+    /*padding-left: 350px;
+    padding-right: 80px;*/
+    text-align: center;
+}
+.h-primary{
+    font-size: 2.8rem;
+    padding: 5px;
+}
+
+.h-secondary{
+    font-size: 1.5rem;
+    padding: 1px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.btn{
+    margin: 45px;
+    padding: 2px 10px;
+    color:  white;
+    background-color: brown;
+    border: 2px white solid;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    justify-content: center;
+    cursor: pointer;
+   transform: translateX(210px);
+}
+#btn-click{
+    text-decoration: none;
+    color: white;
+}
+.center{
+    text-align: center;
+}
